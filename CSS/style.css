@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Merriweather", serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.banner-container{
+    width: 1320px;
+    min-height: 600px;
+    margin: 50px 140px;
+    border-radius: 16px;
+    background:  url("../images/Banner Image.png"), linear-gradient(to bottom, rgb(0, 0, 0, .8), transparent);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner-title{
+    margin-top: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+
+.banner-des{
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.discount{
+    width: 803px;
+    min-height: 620px;
+    background-image: url(../images/New\ Year\ Photo.png);
+    background-repeat: no-repeat;
+    margin: 0px;
+}
+
+.inter{
+    font-family: Inter;
+    text-align: center;
+    letter-spacing: 0%;
+}
+
+.red-big{
+    margin-bottom: 50px;
+    color: rgb(255, 0, 0);
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+}
+
+.red-small{
+    color: rgb(255, 0, 0);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+
+.black-smaller{
+    margin-top: 0px;
+    margin-bottom: 48px;
+    color: rgb(7, 2, 17);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+/* card */
+.card-container{
+    width: 1320px;
+    min-height: 600px;
+    margin: 0px 140px;
+    border-radius: 16px;
+    background:  url(../images/Vectorrr.png), linear-gradient(to right, rgb(0, 0, 0, .9), transparent);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-top: 10px;
+}
+
+.welcome{
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 11%;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.wel-des{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    margin-top: 10px;
+}
+
+.new-year{
+    width: 349.16px;
+    height: 464.65px;
+    background: url(../images/Group\ 70.png);
+}
+
+.join-link{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.venue{
+    width: 1320px;
+    height: 482;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 100px;
+}
+
+.venue span{
+    color: rgb(255, 0, 0);
+}
+
+.venue h3{
+    color: rgb(7, 2, 17);
+
+}
+
+.join-btn{
+    border-radius: 8px;
+    background: rgb(255, 0, 0);
+    border: none;
+    padding: 16px 32px;
+}
+
+.join-btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.offer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.offer div{
+    width: 463px;
+    width: 463px;
+}
+
+.ellipse{
+    width: 463px;
+    height: 463px;
+    box-sizing: border-box;
+    border: 15px solid rgb(255, 0, 0);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer-title{
+    font-family: Inter;
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.offer-sub-title{
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.offer-des{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+.year{
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0%;
+}
+
+.dark-1{
+    font-family: Inter;
+    color: rgb(7, 2, 17);
+}
+
+.dark-2{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+}
+
+.red{
+    color: red;
+    font-family: Merriweather;
+}
+
+.func{
+    width: 1320px;
+    height: 986px;
+    background-image: url(../images/Rectangle\ 2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+.func > h2{
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+}
+.func > p{
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.func > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.portfolio-container{
+    width: 1320px;
+    height: 1163px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 20px;
+}
+
+.img-container{
+    width: 1320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.item{
+    width: 424px;
+    height: 450px;
+    border-radius: 16px;
+}
+
+.subscribe{
+    width: 1320px; min-height: 616px;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+}
+
+.input-field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe input[type="email"] {
+    width: 648px;
+    height: 72px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    border: none;
+    padding-left: 30px;
+    display: inline;
+}
+
+.subscribe input[type="submit"]{
+    width: 210px;
+    height: 72px;
+    background: red;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    padding-right: 30px;
+    display: inline;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+input::placeholder{
+    font-size: 20px;
+}
+
+footer{
+    width: 100%;
+    min-height: 609px;
+    background: rgb(7, 2, 17);
+    margin-bottom: 0px;
+}
