@@ -163,10 +163,14 @@ main{
 
 .venue span{
     color: rgb(255, 0, 0);
+    font-size: 32px;
+    font-weight: 600;
 }
 
 .venue h3{
     color: rgb(7, 2, 17);
+    font-size: 32px;
+    font-weight: 600;
 
 }
 
